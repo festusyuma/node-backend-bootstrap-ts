@@ -43,5 +43,5 @@ const serverError = (e: any = null) => {
     })
 }
 
-const ServiceResponse = { success, failed, badRequest, unauthorized, forbidden, serverError }
-export default ServiceResponse
+const Response = { success, failed, badRequest, unauthorized, forbidden, serverError }
+export default Response
